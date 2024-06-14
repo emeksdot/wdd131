@@ -60,7 +60,7 @@ header nav ul li a {
     display: block;
     text-decoration: none;
     text-align: center;
-    font-family: var();
+    font-family: var(--paragraph-font);
     background-color: var(--nav-background-color);
     color: rgb(0, 0, 0);
     padding: 0.5rem;

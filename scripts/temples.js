@@ -1,6 +1,8 @@
 const hamburger = document.querySelector("#menu");
+const ul = document.querySelector("ul");
 
 hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("open");
   hamburger.classList.toggle("open");
 });
 

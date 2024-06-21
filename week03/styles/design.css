@@ -63,3 +63,11 @@ footer {
     font-size: smaller;
     text-align: left;
 }
+
+::marker {
+    list-style-type: lower-roman;
+    color: rgb(139, 135, 135);
+    content: '';
+    font-variant: small-caps;
+
+}

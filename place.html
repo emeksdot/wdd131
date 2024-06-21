@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=       , initial-scale=1.0">
+    <title>WDD 131 - Place - Nigeria </title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-larger.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px )" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px )" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="African Deer in Nigeria" width="500" height="250">
+            </picture>
+        </div>
+        <section class="country-info">
+            <h2>Data</h2>
+            <div class="property">
+                <p id="label">Area: </p>
+                <p id="label">Popilation: </p>
+                <p id="label">Capital: </p>
+                <p id="label">Languages: </p>
+                <p id="label">Currency: </p>
+                <p id="label">Time Zone: </p>
+                <p id="label">Calling Code: </p>
+                <p id="label">Internet TLD : </p>
+            </div>
+            <div class="values">
+                <p> 923,769 sq km</p>
+                <p>over 230 million</p>
+                <p>Abuja</p>
+                <p>Hausa, Yoruba, Igbo etc</p>
+                <p>Naira (₦) (NGN)</p>
+                <p>UTC+01:00 (WAT)</p>
+                <p>+234</p>
+                <p>.ng</p>
+            </div>
+
+
+
+
+        </section>
+        <section class="country-weather">
+            <div class="wx-heading">
+                <h2 class="wx-icon-heading">Weather </h2>
+                <img class="weather-icon" src="images/weather_clouds_sun_sunny_icon.svg"
+                    alt="Weather icon for the country">
+            </div>
+
+
+            <div class="property">
+                <p id="label"> Temperature: </p>
+                <p id="label"> Conditions: </p>
+                <p id="label"> Wind: </p>
+                <p id="label"> Wind Chill: </p>
+
+            </div>
+            <div class="values">
+                <p>27 °C</p>
+                <p>Scattered thunderstorms</p>
+                <p>5 km/h</p>
+                <p>546,765sq km</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Emeka Thomas Onwugbonu, Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

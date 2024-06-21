@@ -1,17 +1,20 @@
 :root {
+    --country-color-dark: rgb(0, 128, 0);
+    --country-color-light: rgb(255, 255, 255);
     --contrast-color: rgb(235, 131, 50);
 
-    --paragraph-font: "Lato",
+    --paragraph-font: "Montserrat",
         sans-serif;
-    --heading-font: "Roboto",
-        sans-serif;
-    --link-font: "Ubuntu",
+    --heading-font: "Ubuntu",
         sans-serif;
 
-    --nav-background-color: rgba(243, 157, 157, 0.2);
-    --nav-hover-background-color: rgb(113, 62, 102);
-    --nav-hover-link-color: #fdcbd8;
 }
+
+/* .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+} */
 
 
 * {
@@ -37,8 +40,8 @@ footer {
 }
 
 header {
-    background-color: green;
-    color: white;
+    background-color: var(--country-color-dark);
+    color: var(--country-color-light);
     padding: 2rem 0;
 }
 
@@ -78,6 +81,7 @@ section {}
 .country-weather {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    font-family: var(--paragraph-font);
 }
 
 h2 {
@@ -113,14 +117,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    background-color: green;
-    color: white;
+    background-color: var(--country-color-dark);
+    color: var(--country-color-light);
     padding: 1rem;
     font-weight: 500;
 }
 
 img {
-    object-position: 50%, 50%;
+    object-position: 50% 50%;
     object-fit: cover;
     width: 100%;
     height: auto;

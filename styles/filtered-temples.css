@@ -155,6 +155,10 @@ footer {
     padding-top: .5rem;
 }
 
+.card img {
+    margin-top: .75rem;
+}
+
 .tag {
     font-weight: 600;
 }

@@ -73,7 +73,6 @@ header nav ul li a:hover,
 header nav ul li a:active {
     text-decoration: overline;
     color: white;
-    /* background-color: rgb(0, 0, 0); */
     background-color: var(--nav-hover-background-color);
 
 }
@@ -114,7 +113,7 @@ main .second img {
 }
 
 #menu.open::before {
-    content: "X";
+    content: "✖️";
 }
 
 .open a {

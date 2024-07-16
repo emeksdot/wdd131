@@ -41,20 +41,7 @@ console.log(products);
 for (let x of products) {
   let option = document.createElement("option");
   option.innerHTML = x.name.toUpperCase();
+  option.classList.add("option-style");
   select.appendChild(option);
   console.log(x.name);
 }
-
-const visits = document.querySelector(".numberOfTimes");
-
-let numberOfVisits = Number(window.localStorage.getItem("visit-times")) || 0;
-
-if (numberOfVisits !== 0) {
-  visits.textContent = numberOfVisits;
-} else {
-  visits.textContent = `This is your first visit. 🥳 Welcome!`;
-}
-
-numberOfVisits++;
-
-localStorage.setItem("visit-times", numberOfVisits);

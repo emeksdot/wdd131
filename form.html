@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" class="prod-form">
+            <label> Product Name<select name="products" id="products" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select></label>
+            <label class="container">Overall Rating</label>
+            <div class="container">
+                <label>&star;<input type="radio" name="rating" id="one" required></label>
+                <label>&star;&star;<input type="radio" name="rating" id="two" required></label>
+                <label>&star;&star;&star;<input type="radio" name="rating" id="three" required></label>
+                <label>&star;&star;&star;&star;<input type="radio" name="rating" id="four" required></label>
+                <label>&star;&star;&star;&star;&star;<input type="radio" name="rating" id="five" required></label>
+            </div>
+
+            <label>Date of Installation<input type="date" name="install" id="dateInstall" required></label>
+            <label>Which features did you find useful in the product? (Check all that apply)</label>
+            <label><input type="checkbox" id="check-one">Durability</label>
+            <label><input type="checkbox" id="check-two">Ease of Use</label>
+            <label><input type="checkbox" id="check-three">Performance</label>
+            <label><input type="checkbox" id="check-four">Design</label>
+
+            <label>Written Review (Optional)<textarea name="review" id="review"></textarea></label>
+
+            <label>Your Name (Optional)<input type="text" name="name" id="name"></label>
+            <input type="submit" value="Post Review">
+
+
+
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Emeka Thomas Onwugbonu, Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+
+</html>

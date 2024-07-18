@@ -1,0 +1,55 @@
+:root {
+    --heading-font-color: #00241B;
+    --heading-font: "Ubuntu",
+        sans-serif;
+    --logo-font: "Kalnia Glaze", serif;
+    --paragraph-font: "Rubik", sans-serif;
+    --paragraph-font-color: ;
+    --paragraph--bgcolor: ;
+    --heading-bgcolor: ;
+    --webpage-bgcolor: #FFCCD5;
+    --links-bgcolor: #93E5AB;
+    --cta-bgcolor: #FF5733;
+}
+
+header,
+main,
+footer {
+    max-width: 60rem;
+    background-color: aqua;
+    margin: 1rem auto;
+}
+
+header,
+h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+    color: var(--heading-font-color);
+    /* margin: 2rem 0; */
+}
+
+h2 {
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+main {
+    background-color: var(--webpage-bgcolor);
+}
+
+p,
+ul {
+    font-family: var(--paragraph-font);
+}
+
+main {
+    padding: 0 1rem;
+    /* margin: 0 1rem 0 1rem; */
+    margin-left: 9rem;
+    margin-right: -2rem;
+}
+
+img {
+    display: block;
+    margin: .5rem auto;
+}

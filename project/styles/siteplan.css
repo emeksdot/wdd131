@@ -18,6 +18,7 @@ footer {
     max-width: 60rem;
     background-color: aqua;
     margin: 1rem auto;
+    padding: 1rem;
 }
 
 header,
@@ -33,23 +34,65 @@ h2 {
     text-decoration-line: underline;
 }
 
-main {
-    background-color: var(--webpage-bgcolor);
-}
+
 
 p,
 ul {
     font-family: var(--paragraph-font);
 }
 
+nav {
+    display: flex;
+    background-color: var(--links-bgcolor);
+    border: 1px solid black;
+}
+
+.logo {
+    font-family: var(--logo-font);
+    font-size: 2.5rem;
+    width: 100px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: .5rem;
+    background-color: var(--links-bgcolor);
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1rem;
+    margin: 2rem;
+    color: var(--heading-font-color);
+}
+
+nav a {
+    color: rgb(113, 62, 102);
+    background-color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
 main {
-    padding: 0 1rem;
-    /* margin: 0 1rem 0 1rem; */
-    margin-left: 9rem;
-    margin-right: -2rem;
+    background-color: var(--webpage-bgcolor);
 }
 
 img {
     display: block;
     margin: .5rem auto;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    padding: .25rem;
+}
+
+footer {
+    font-family: var(--paragraph-font);
+    text-align: center;
 }

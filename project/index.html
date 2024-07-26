@@ -15,46 +15,68 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/project.js" defer></script>
 </head>
 
 <body>
+    <a id="menu" href="#"></a>
     <header>
         <div class="logo">SMOB</div>
+
         <nav>
             <ul class="navigation">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <div class="cart-box">
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <span class="cart-items-number">7</span>
+                </div>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <h4>Come for your super deals</h4>
-            <h2>Welcome to Arizona</h2>
-            <h3>Blah Vlah</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta obcaecati quaerat labore rerum, ad illo!
-            </p>
+            <img src="images/hero4.png" alt="">
+            <div class="overlay">
+                <h4>Come for your super deals</h4>
+                <h2>Welcome to Serena Mildred</h2>
+                <h3>Online Boutique</h3>
+                <p>Experience great shopping and great discounts of up to 25%
+                </p>
+            </div>
             <a href="" class="submit">Buy Now</a>
         </section>
         <section class="features">
             <div class="features-box">
                 <img src="images/perf1.webp" alt="First Product" width="180">
-                <h5>New Market Ops</h5>
+                <small>Perfume</small>
+                <h5>Marc Jacobs Daisy</h5>
+                <p>$18:99</p>
+                <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
             </div>
             <div class="features-box">
-                <img src="images/perf2.webp" alt="First Product" width="180">
-                <h5>New Market Ops</h5>
+                <img src="images/perf2.webp" alt="MaryamK Oriflame" width="180">
+                <small>Perfume</small>
+                <h5>MaryamK Oriflame</h5>
+                <p>$15:00</p>
+                <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
             </div>
             <div class="features-box">
                 <img src="images/perf4.webp" alt="First Product" width="180">
-                <h5>New Market Ops</h5>
+                <small>Perfume</small>
+                <h5>Coco Chanelle Mademoiselle</h5>
+                <p>$207:64</p>
+                <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
             </div>
             <div class="features-box">
                 <img src="images/perf7.webp" alt="First Product" width="180">
-                <h5>New Market Ops</h5>
+                <small>Perfume</small>
+                <h5>D&G N3 L'imperatrice</h5>
+                <p>$39:90</p>
+                <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i></button>
             </div>
 
         </section>

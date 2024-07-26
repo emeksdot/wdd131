@@ -1,0 +1,115 @@
+products = [
+{
+    productID: 120045, 
+    productName: "D&G 3 L'IMPERATRICE",
+    price: 77.65,
+    quantity: 1,
+    imageUrl: "images/perf1.webp"
+  },
+{
+    productID: 176045,
+    productName: "MARC JACOBS DAISY",
+    price: 40.99,
+    quantity: 1,
+    imageUrl: "images/perf2.webp"
+  },
+{
+    productID: 160335,
+    productName: "FRATELLI DIAMANTI- AFRICAN NIGHT",
+    price: 46.50,
+    quantity: 1,
+    imageUrl: "images/perf3.webp"
+  },
+{
+    productID: 150046,
+    productName: "FRATELLI DIAMANTI- CORNO D'ORO",
+    price: 45.80,
+    quantity: 1,
+    imageUrl: "images/perf4.webp"
+  },
+{
+    productID: 131045,
+    productName: "INUKA- ALWAYS WITH YOU",
+    price: 64.55,
+    quantity: 1,
+    imageUrl: "images/perf5.webp"
+  },
+{
+    productID: 120952,
+    productName: "JEAN LANVIN- MY SIN",
+    price: 36.50,
+    quantity: 1,
+    imageUrl: "images/perf6.webp"
+  },
+{
+    productID: 125408,
+    productName: "PENHALIGON- OPUS 1870",
+    price: 120.35,
+    quantity: 1,
+    imageUrl: "images/perf7.webp"
+  },
+{
+    productID: 140014,
+    productName: "BEKHEIT- EAU DE PARFUM",
+    price: 26.80,
+    quantity: 1,
+    imageUrl: "images/perf8.webp"
+  },
+{
+    productID: 128532,
+    productName: "FRATELLI DIAMANTI- AL VENTO",
+    price: 48.30,
+    quantity: 1,
+    imageUrl: "images/perf9.webp"
+  },
+{
+    productID: 177702,
+    productName: "COCO CHANEL- MADMOISELLE",
+    price: 64.99,
+    quantity: 1,
+    imageUrl: "images/perf10.webp"
+  },
+{
+    productID: 125408,
+    productName: "PENHALIGON- OPUS 1870",
+    price: 120.35,
+    quantity: 1,
+    imageUrl: "images/perf11.webp"
+  },
+{
+    productID: 165577,
+    productName: "JEAN LANVIN- MY SIN",
+    price: 36.50,
+    quantity: 1,
+    imageUrl: "images/perf12.webp"
+  },
+{
+    productID: 173266,
+    productName: "RANCE 1795- EAU DE LA COURONNE",
+    price: 135.40,
+    quantity: 1,
+    imageUrl: "images/perf13.webp"
+  },
+{
+    productID: 147702,
+    productName: "ORIFLAME- MARYAMK",
+    price: 64.45,
+    quantity: 1,
+    imageUrl: "images/perf14.webp"
+  },
+{
+    productID: 121172,
+    productName: "GUERLAIN- AQUA ALLEGORI",
+    price: 55.99,
+    quantity: 1,
+    imageUrl: "images/perf15.webp"
+  },
+{
+    productID: 102456,
+    productName: "GUERLAIN- AQUA ALLEGORI 50ML",
+    price: 99.25,
+    quantity: 1,
+    imageUrl: "images/perf16.webp"
+  }
+
+]

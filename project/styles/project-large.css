@@ -1,0 +1,36 @@
+@media screen and (min-width: 800px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation {
+        display: flex;
+        column-gap: 3rem;
+        justify-content: space-around;
+        padding-right: 2rem;
+    }
+
+    .navigation li a {
+        column-gap: 1.5rem;
+    }
+
+    .tag {
+        background-color: transparent;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        justify-content: space-around;
+        align-content: center;
+        border: 2px solid red;
+        padding-left: 1.5rem;
+    }
+}
